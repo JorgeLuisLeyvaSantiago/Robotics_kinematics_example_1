@@ -12,8 +12,17 @@ class view_robot:
         self.env = swift.Swift()
         self.env.launch(realtime=True)
 
-    def incluir_robot(self):
+    def incluir_robot_AL5D(self):
+        robot1 = model_robot()
+        robot_analisis = robot1.robot_analisis_0
+        self.env.add(robot_analisis)
+
+    def incluir_robot_panda(self):
         robot1 = model_robot()
         robot_analisis = robot1.robot_analisis_1
         self.env.add(robot_analisis)
-        # self.env.hold()
+
+    def incluir_robot_puma560(self):
+        robot1 = model_robot()
+        robot_analisis = robot1.robot_analisis_2
+        self.env.add(robot_analisis)
