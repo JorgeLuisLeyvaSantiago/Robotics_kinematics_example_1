@@ -2,6 +2,7 @@ import roboticstoolbox as rp
 
 class model_robot:
 
+    # Model attributes
     def __init__(self):
         self.robot_analisis_0 = rp.models.AL5D()
         self.robot_analisis_1 = rp.models.Panda()

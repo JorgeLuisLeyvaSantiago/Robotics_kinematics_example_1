@@ -33,7 +33,8 @@ class dynamic:
         Tep = modelo.robot_analisis_1.fkine(modelo.robot_analisis_1.q) * sm.SE3.Trans(0.2, 0.2, 0.45)
         vista.launch_view()
         vista.env.add(modelo.robot_analisis_1)
-    
+
+        # variables for simulation
         arrived = False
         dt = 0.05
 

@@ -1,8 +1,6 @@
 import swift
 from model import model_robot
 
-# from main import panda, Tep
-
 class view_robot:
 
     # def __init__(self):
